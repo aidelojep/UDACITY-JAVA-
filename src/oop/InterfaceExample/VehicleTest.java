@@ -1,2 +1,5 @@
-package oop.InterfaceExample;public class VehicleTest {
+package oop.InterfaceExample;
+
+public class VehicleTest {
+
 }
