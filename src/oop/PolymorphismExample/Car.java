@@ -8,6 +8,6 @@ public class Car extends Vehicle{
 
     @Override
     public void speed() {
-        System.out.println("This is my current speed!");
+        System.out.println("The speed of Car is 35Km/hr");
     }
 }

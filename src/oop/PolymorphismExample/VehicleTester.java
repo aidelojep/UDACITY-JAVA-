@@ -5,7 +5,6 @@ public class VehicleTester {
 
         Vehicle[] vehicles = new Vehicle[3];
 
-
         vehicles[0] = new Car();
         vehicles[1] = new Boat();
         vehicles[2] = new Plane();
@@ -14,7 +13,8 @@ public class VehicleTester {
             Car car = new Car();
             Boat boat = new Boat();
             Plane plane = new Plane();
-            //Our car method has been overriden
+
+            //Our car method has been overridden
             car.speed();
             boat.speed();
             plane.speed();

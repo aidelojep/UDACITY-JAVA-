@@ -1,6 +1,6 @@
 package oop.PolymorphismExample;
 
-public class Vehicle {
+public abstract class Vehicle {
     protected String speed;
     protected String start;
     protected String direction;
@@ -22,9 +22,8 @@ public class Vehicle {
     public void direction(){
         System.out.println("Direction of Vehicle");
     }
-    public void speed(){
-        System.out.println("Speed!");
-    }
+    public void speed(){};
+
 
 }
 
