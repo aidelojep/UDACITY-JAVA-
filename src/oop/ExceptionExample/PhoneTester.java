@@ -10,7 +10,20 @@ public class PhoneTester {
             }catch (IllegalArgumentException ex){
                 System.out.println(ex.getLocalizedMessage());
             }
-
         }
+        for (int i = 0; i < phoneNumber.length; i++) {
+            System.out.println(new Phone("iphone 12 pro max",phoneNumber[i]));
+        }
+
+
+
+
+
+
+
+
+
+
+
     }
 }

@@ -29,6 +29,7 @@ public class Phone {
 
     @Override
     public String toString() {
-        return "Your Phone type is:" + new StringBuilder().append(phoneType).append(" ").append(", while your phoneNumber is:").append(phoneNumber).toString();
+        return "Your phone type is: " + " " + phoneType + " " +
+                "and phone number is:" + " " + phoneNumber;
     }
 }
